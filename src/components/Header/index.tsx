@@ -132,7 +132,7 @@ const NETWORK_LABELS: { [chainId in ChainId]: string | null } = {
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
   [ChainId.KOVAN]: 'Kovan',
-  [ChainId.zkSync_Era_Testnet]: 'zkSync_Era_Testnet'
+  [ChainId.zkSync_Era_Testnet]: 'zkSync Testnet'
 }
 
 export default function Header() {

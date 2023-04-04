@@ -214,9 +214,9 @@ body {
   background-position: 0 -30vh;
   background-repeat: no-repeat;
   background-image: ${({ theme }) =>
-    `radial-gradient(50% 50% at 50% 50%, ${transparentize(0.9, theme.primary1)} 0%, ${transparentize(
+    `radial-gradient(50% 50% at 50% 50%, ${transparentize(0.01, theme.green1)} 10%, ${transparentize(
       1,
-      theme.bg1
+      theme.primary1
     )} 100%)`};
 }
 `
